@@ -2,7 +2,7 @@
 
 def learn_theta(data, colors):
     max_blue = None
-    max_red = None
+    min_red = None
 
     for x, c in zip(data, colors):
         if c == 'blue':
