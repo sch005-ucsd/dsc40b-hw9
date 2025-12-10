@@ -131,4 +131,4 @@ def slc(graph, d, k):
         for cluster_nodes in rep_to_cluster.values()
     )
 
-    return cluster
+    return clusters
